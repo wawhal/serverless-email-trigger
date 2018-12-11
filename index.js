@@ -62,9 +62,7 @@ const updateDb = async (id) => {
 
 exports.handler = async (event, context, callback) => {
   let request;
-
   try {
-    console.log(event);
     request = JSON.parse(event.body);
   } catch (e) {
     return callback(null, {statusCode: 400, body: "cannot parse hasura event"});

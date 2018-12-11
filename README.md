@@ -1,0 +1,4 @@
+Set environment variables:
+
+1. POSTGRES_CONNECTION_STRING
+2. SPARKPOST_API_KEY
